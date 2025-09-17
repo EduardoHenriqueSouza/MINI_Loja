@@ -6,7 +6,7 @@ import "./styles/global.css";
 
 export default function App() {
   const [loading, setLoading] = React.useState(true);
-  const [cartCount, setCartCount] = React.useState(0); // vai usar agora
+  const [cartCount, setCartCount] = React.useState(0);
 
   React.useEffect(() => {
     const timeout = setTimeout(() => setLoading(false), 1000);
@@ -24,7 +24,7 @@ export default function App() {
             key={p.id}
             product={p}
             loading={loading}
-            onAddToCart={handleAddToCart} // passa a função
+            onAddToCart={handleAddToCart}
           />
         ))}
       </div>

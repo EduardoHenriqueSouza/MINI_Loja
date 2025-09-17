@@ -3,7 +3,7 @@
 Este projeto implementa a **mesma interface** utilizando quatro técnicas diferentes de estilização no React, com foco em **boas práticas de acessibilidade, responsividade, dark mode e estados de interação**.
 
 ## Tecnologias Utilizadas
-- **React 18+**
+- **React**
 - **Vite** para build/dev
 - Estilização:
   - CSS Global
