@@ -1,12 +1,25 @@
-# React + Vite
+# Projeto: Tela de Produtos em 4 Abordagens de Estilização
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto implementa a **mesma interface** utilizando quatro técnicas diferentes de estilização no React, com foco em **boas práticas de acessibilidade, responsividade, dark mode e estados de interação**.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+- **React 18+**
+- **Vite** para build/dev
+- Estilização:
+  - CSS Global
+  - CSS Modules
+  - Tailwind CSS
+  - styled-components
+- **ThemeProvider** (na versão styled-components)
+- **LocalStorage API** para persistir o tema
+- **ARIA attributes** para acessibilidade
+- **Lazy loading** nativo (`loading="lazy"`) em imagens
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como Rodar o Projeto
 
-## Expanding the ESLint configuration
+Cada versão é independente. Para rodar qualquer uma delas:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd MINI_Loja
+npm install
+npm run dev
